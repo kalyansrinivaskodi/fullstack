@@ -1,0 +1,21 @@
+Task
+    1)
+    var obj = [
+          { person: "Name 1", age: "2", company: "GUVI" },
+          { person: "Name 2", age: "5", company: "GUVI geek" },
+          { person: "Name 3", age: "8", company: "GUVI geek network" },
+        ]
+    use the above JSON to iterate over all for loops (for, for in, for of, forEach)
+    2)
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          console.log(data);
+        };
+        xhr.send();
+    use the restcountries API url ->  https://restcountries.eu/rest/v2/all
+    and diplay all the country flags in console
+    3) 
+    use the same restcountries and print all countries name, region, sub region and population.
+    4) read abouyt the difference between window, screen and document in javascript
