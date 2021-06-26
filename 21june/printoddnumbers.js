@@ -1,12 +1,12 @@
-var str="Hi guys iam kalyan srinivas from IIT Madras mtech cse";
-Titlecaps=function (string)
+
+var a=[0,5,6,74,1,4,7,5,2,4];
+//iife
+(function(){
+for(let i=0;i<a.length;i++ )
 {
-    //anonymous function
-    var sentences=string.toLowerCase().split(" ");
-    for(let i=0;i<sentences.length;i++)
-    {
-        sentences[i]=sentences[i][0].toUpperCase()+sentences[i].slice(1);
-    }
-    return sentences;
-};
-console.log(Titlecaps(str).join(" "));
+if(a[i]%2===1)
+{
+    console.log(a[i]);
+}
+}
+})();
