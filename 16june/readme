@@ -1,0 +1,15 @@
+to read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
+task
+    create a simple html file containing of elements that helps to build a rough portfolio
+    doc for the difference between <div>, <article>, <section> tag?
+    write a doc for the following below
+        typeof(1)
+        typeof(1.1)
+        typeof('1.1')
+        typeof(true)
+        typeof(null)
+        typeof(undefined)
+        typeof([])
+        typeof({})
+        typeof(NaN)
+    read what is prototype
