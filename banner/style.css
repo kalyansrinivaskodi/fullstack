@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+* {
+    box-sizing: border-box;
+  }
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .dot {
+    border-style: none dashed none none;
+    border-color:#99AABA ;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    height: 81em;
+    position:absolute;
+    left: 50%;
+}
+.ob{
+    width: 50%;
+    height: 100vh;
+}
+.obesity{
+font-family: 'Noto Sans', sans-serif;
+text-align: center;
+font-size: 50px;
+font-weight: 1000;
+
+color: #19A6B8;
+}
+.info{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    /* display: flex;
+    font-stretch: extra-condensed; */
+    padding-left: 6px;
+    /* height: 20px;  */
+    color: #FCBF17;
+    }
+.loren{
+    text-align: center;
+    color: #959595 ;
+    font-weight: bold;
+    font-size: 22px;
+}
+.boxed {
+    border: 1px solid blue ;
+   width: 90%;
+   margin-left: 40px;
+   color: white;
+   font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #19AEC2;
+  }
+  .boxed2 {
+    border: 1px solid blue ;
+   width: 95%;
+   margin-left: 3px;
+   color: white;
+   font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #19AEC2;
+  }
+
+
+  .increase{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: left right;
+    color: #416274;
+  }
+  .loren1{
+    text-align: left;
+    color:#19A6B8 ;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.cake{
+  width: 100%;
+
+}
+.ck{
+ margin-right: 20%;
+ height: 143px;
+}
+.all{
+  margin-left: 40px;
+}
+.drink{
+  width: 98%;
+  padding-bottom: 20px;
+}
+
+ .dr{
+  margin-left: 15px;
+   height: 2%;
+   width:90%;
+ }
+ .nearly
+ {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 1000;
+  margin-bottom:-25px;
+  text-align: left ;
+  color: #416274;
+ }
+ .five00{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  text-align: right;
+  font-weight: 1000;
+  margin-left: 13%;
+  font-size: 60px;
+ 
+
+ }
+ .million{
+  text-align: right;
+  color:#19A6B8 ;
+  margin-right: 429px;
+  font-weight: bold;
+  font-size: 21px;
+
+ }
+
+ .jk{
+  margin-top: 30px;
+   width: 65%;
+   height: 100%;
+ }
+ .ad{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 1000;
+  margin-top: 1px;
+  padding-bottom: -20px;
+  margin-left: 28%;
+
+ }
+ .six5{
+  font-family: 'Noto Sans', sans-serif;
+  color: #416274;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 60px;
+  margin-left: 28%;
+}
+ .man7{
+   float: right;
+   margin-top: 30px;
+   margin-right: 39px;
+ }
+
+ .yg{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 1000;
+  padding-bottom: -20px;
+  margin-left: 28%;
+
+ }
+
+ .thirty4{
+  font-family: 'Noto Sans', sans-serif;
+  color: #416274;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 60px;
+  margin-left: 28%;
+
+ }
+ .man5{
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
+ }
+  
+ .child
+ {
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 1000;
+  padding-bottom: -20px;
+  margin-left: 24%;
+
+ }
+.ten{
+  font-family: 'Noto Sans', sans-serif;
+  color: #416274;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 60px;
+  margin-left: 24%;
+
+}
+.man3{
+  float: right;
+  margin-top: 30px;
+  margin-right: 150px;
+
+}
+
+/* RIGHT COLUMN */
+.grains{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color:#19A6B8 ;
+  font-size: 35px;
+  margin-left: -250px;
+
+}
+.vegfr{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color:#19A6B8 ;
+  font-size: 35px;
+  margin-left: -220px;
+
+}
+.fishmt{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color:#19A6B8 ;
+  font-size: 35px;
+  margin-left: -220px;
+}
+.milkch{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color:#19A6B8 ;
+  font-size: 35px;
+  margin-left: -170px;
+
+}
+ 
+.hun100{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 79px;
+  text-align: left;
+  font-weight: 1000;
+margin-left: 120px;
+margin-top: -108px;
+ 
+}
+.seven5{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 79px;
+  text-align: left;
+  font-weight: 1000;
+margin-left: 210px;
+margin-top: -108px;
+
+}
+.five0{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 79px;
+  text-align: left;
+  font-weight: 1000;
+margin-left: 260px;
+margin-top: -108px;
+
+}
+.two5{
+  font-family: 'Noto Sans', sans-serif;
+  color: #FCBF17;
+  font-size: 79px;
+  text-align: left;
+  font-weight: 1000;
+margin-left: 290px;
+margin-top: -108px;
+
+
+}
+
+
+
+
+.bread{
+  float: right;
+  margin-right:150px;
+  width :22%;
+}
+
+.veg{
+  float: right;
+  margin-right:80px;
+  width :25%;
+
+}
+.fish{
+  float: right;
+  margin-right:10px;
+  width :29%;
+
+}
+.milk
+{
+  float: right;
+  margin-right:10px;
+  width :27%;
+
+}
+
+ 
+.inject{
+  float: left;
+  width: 150px;
+  margin-top: 10px;
+
+}
+.diabates{
+  font-family: 'Noto Sans', sans-serif;
+ 
+  color: #416274;
+  font-weight: 1000;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 30%;
+
+}
+.dp{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color: #FCBF17;
+  font-weight: 1000;
+  font-size: 42px;
+
+}
+.dpl{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color:#19A6B8 ;
+  font-weight: 1000;
+
+}
+
+.heart{
+  float: left;
+  width: 150px;
+  margin-top: 10px;
+
+}
+.strokes{
+  font-family: 'Noto Sans', sans-serif;
+ 
+  color: #416274;
+  font-weight: 1000;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 30%;
+
+}
+.sp{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color: #FCBF17;
+  font-weight: 1000;
+  font-size: 42px;
+
+}
+.spl{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color:#19A6B8 ;
+  font-weight: 1000;
+
+}
+.cell{
+  float: left;
+  width: 150px;
+  margin-top: 10px;
+
+}
+.cancer{
+  font-family: 'Noto Sans', sans-serif;
+ 
+  color: #416274;
+  font-weight: 1000;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 30%;
+
+}
+.cp{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color: #FCBF17;
+  font-weight: 1000;
+  font-size: 42px;
+
+}
+.cpl{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+  color:#19A6B8 ;
+  font-weight: 1000;
+
+}
