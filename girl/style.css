@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Quicksand:wght@500&display=swap");
+
+:root {
+  --font-family: "Quicksand", sans-serif;
+  --text-family: "Jomhuria", cursive;
+  --bg-dark-grey: #31354e;
+  --linear-graient: linear-gradient(
+    to right top,
+    #0f27c6,
+    #5423cb,
+    #7a1dcf,
+    #9a13d2,
+    #b700d3
+  );
+  --linear-gradient-button: linear-gradient(
+    to right top,
+    #760fc6,
+    #5f36cf,
+    #454ad3,
+    #2959d5,
+    #0065d3
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+.container {
+  height: 100vh;
+  background-image: var(--linear-graient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 1em;
+}
+
+.card {
+  background-color: var(--bg-dark-grey);
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.symbol {
+    padding-top:1.2em;
+}
+
+.imag {
+  width: 170px;
+  border-radius: 50%;
+  margin: 3em 3em 1em 3em;
+  box-shadow: 0px 0px 11px 12px rgb(0 0 0 / 99%);
+}
+
+.button {
+  width: 6em;
+  height: 3em;
+  border-radius: 16px;
+  background-image: var(--linear-gradient-button);
+  color: #fff;
+  margin: 1em;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 1em 1.3em;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.button:hover {
+    background-image: var(--linear-graient);
+    transition-duration: 5s;
+}
+
+.name-content {
+  font-family: var(--text-family);
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 26px;
+}
+
+.text-color {
+  font-size: 2.3em;
+}
+
+.desig-design {
+  font-size: 1.8em;
+  color: #737580;
+  text-transform: uppercase;
+}
+
+.desc-content {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: rgb(163, 163, 142);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.float-right {
+    float: right; padding: 0.2em;
+}
+
+.float-left {
+    float: left; padding: 0.2em;
+}
+
+
