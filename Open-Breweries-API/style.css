@@ -8,6 +8,7 @@ body{
   }
   .brewery-name{
     color:orange;
+    place-items: center;
   }
   .heading {
     position: sticky;
@@ -69,7 +70,9 @@ body{
   .brewery-container:hover .brewery-name{
     color:red;
 }
-
+.brewery-address{
+    padding-left: 20px;
+}
 
 @media (min-width: 800px) {
     .brewery-details {
