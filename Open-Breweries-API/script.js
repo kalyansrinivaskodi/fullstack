@@ -36,7 +36,15 @@ function loadBreweries(breweries) {
         
         <h3 class="brewery-name">Brewery Name ${id++}:<br>${brewery.name}</h3>
         <p><strong>Type</strong>: ${brewery.brewery_type}</p>
-        <p><strong>Address</strong>: <br>Street:${brewery.street}<br>City:${brewery.city} <br>State:${brewery.state}<br>County:${brewery.country}<br>Postal Code:${brewery.postal_code}</p>
+        <p><strong>Address</strong>: 
+        
+        <div class="brewery-address">
+            Street : ${brewery.street}
+            <br>City : ${brewery.city} 
+            <br>State : ${brewery.state}
+            <br>County : ${brewery.country}
+            <br>Postal Code : ${brewery.postal_code}</p>
+        </div>
         <p><strong>website url</strong>: ${brewery.website_url}</p>
         <p><strong>Phone No.</strong>:${brewery.phone}
       </div>
