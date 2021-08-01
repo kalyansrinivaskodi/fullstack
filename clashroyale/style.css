@@ -1,0 +1,116 @@
+
+body{
+    background-color: "blue";
+    margin:0px;
+    }
+nav a{
+    color:black;
+    text-decoration: none;
+    
+    color:#9F39D1;
+    
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: flex-end;
+    font-family: var(--ff-secondary);
+}
+nav{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    height:40px;
+    
+}
+
+#logo{
+    margin-right: auto;
+    color:black;
+}
+#log{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:black;
+}
+.con{
+    
+
+    background-image:url("http://cdn.supercell.com/gameapi/website/og_cr_share_img.jpg");
+    min-height: 100%;
+    background-size:cover;
+    height:80vh;
+    width:100vw;
+    margin:0px;
+    padding:0px;
+    border:0px;
+
+    
+}
+.filter{
+    background: rgba(0,0,0,0.5);
+    height:100%;
+    width:100%;
+    display: grid;
+}
+
+.textArea{
+        margin-top: auto;
+        text-align:center;
+        place-items: center;
+        
+        margin-bottom: auto;
+}
+.welcome{
+    color:white;
+}
+.access{
+    color:#5A51EB;
+}
+.getting{
+    color:white;
+    background-color: #9F39D1;
+    padding-top:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.getting:hover{
+    background-color: white;
+    color:#9F39D1;
+}
+footer > ul {
+    margin:0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    font-family: var(--ff-secondary);
+}
+footer > ul>li>a{
+    text-decoration: none;
+    color:white
+}
+footer a:hover{
+    opacity: 0.5;
+}
+footer{
+    background-color: black;
+    width:100vw;
+
+}
+#sitelink{
+    margin-left: auto;
+    margin-right:20px;
+}
+@media only screen and (max-width: 800px) {
+    #sitelink{
+        margin-left: left;
+        margin-right: auto;
+
+    }
+}
