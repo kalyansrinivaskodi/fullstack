@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/surhud004/Foodish/main/public/logo.ico" type="image/icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div>
+                <img src="https://raw.githubusercontent.com/surhud004/Foodish/main/public/logo.ico">
+                Foodish
+            </div>
+        </nav>
+        <p>🍲 Random pictures of food dishes. 🍛</p>
+        <div class="row">
+            <div class="col">
+                <img src="https://foodish-api.herokuapp.com/images/samosa/samosa2.jpg" id="image">
+            </div>
+            <div class="col">
+                <ul id="list">
+                    <li>
+                        <a onclick="calling('biryani')" href="javascript:void(0)">biryani</a>:81
+                    </li>
+                    <li>
+                        <a onclick="calling('burger')" href="javascript:void(0)">burger</a>:87
+                    </li>
+                    <li>
+                        <a onclick="calling('butter-chicken')" href="javascript:void(0)">buter-chicken</a>:22
+                    </li>
+                    <li>
+                        <a onclick="calling('dessert')" href="javascript:void(0)">dessert</a>:36
+                    </li>
+                    <li>
+                        <a onclick="calling('dosa')" href="javascript:void(0)">dosa</a>:33
+                    </li>
+                    <li>
+                        <a onclick="calling('idly')" href="javascript:void(0)">idly</a>:77
+                    </li>
+                    <li>
+                        <a onclick="calling('pasta')" href="javascript:void(0)">pasta</a>:34
+                    </li>
+                    <li>
+                        <a onclick="calling('pizza')" href="javascript:void(0)">pizza</a>:95
+                    </li>
+                    <li>
+                        <a onclick="calling('rice')" href="javascript:void(0)">rice</a>:35
+                    </li>
+                    <li>
+                        <a onclick="calling('samosa')" href="javascript:void(0)">samosa</a>:22
+                    </li>
+                    <li>
+                        Total Foodishes : 572
+                    </li>
+                </ul>
+            </div>
+
+            <span>Share this foodish:</span><br>
+            <input type="text" id="myText" size="100" class="form-control">
+            <br><br>
+
+            <span>API Available at</span>
+            <a href="">https://foodish-api.herokuapp.com/api/</a><br>
+            <span>Read the Document at</span>
+            <a href="https://github.com/surhud004/Foodish#readme">Foodish</a><br><br><br>
+            <span>Try a random Burger at</span>
+            <a onclick="calling('burger')" href="javascript:void(0)"> 
+                Try a random burger image</a><br>
+            <span>Try a Unknowm Foolish at</span>
+            <a href=""> https://foodish-api.herokuapp.com/images/somefoodish/</a><br>
+
+
+        </div>
+    </div>
+    <footer class="footer"><p>Designed and Coded by :<a target="_blank"
+            href="https://github.com/kalyansrinivaskodi">Kalyan</a> © 2021</p> </footer>
+
+
+</body>
+
+</html>
